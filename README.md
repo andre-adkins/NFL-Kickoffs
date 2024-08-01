@@ -1,8 +1,6 @@
 # Analyzing the State of the NFL's Kickoff Returns
 In this project, I analyze NFL kickoff data from the 2005-06 to 2023-24 seasons and determine if a rule change should be implemented. The data was retrieved from the [Official NFL Stats Website](https://www.nfl.com/stats/team-stats/).
 
-[Click here to see the official project. (HTML)](https://htmlpreview.github.io/?https://github.com/andre-adkins/NFL-Kickoffs/blob/main/NFL_Kickoffs.html)
-
 ## Programs Used
 + **SQL:** Used to collect, clean, join, and transform the data. <be>
 + **R Studio:** Used to transform data further and create the data visualizations of the results.
@@ -40,3 +38,6 @@ There was a time when the NFL featured dynamic kickoff and punt return specialis
 | 2018 | -No contact 15 yards from kickoff spot until ball touches a player or the ground<br>-No 2-player blocking by deep players and no 2-man wedge blocks <br>-Kicking team players must be no more than 1 yard behind the ball and no prekick motion<br>-Kicking team players must have 5 on either side of the ball (at least 2 between hashmarks and numbers, at least 2 outside numbers)<br>-Receiving team must have 8 players within the "setup zone" (15-yd zone between 10-25 yards from the ball)<br>-Receiving team cannot exit the setup zone on either side until the ball touches the ground or a player<br>-An untouched kick is a touchback when it touches the ground in the end zone |
 | 2021 | -Receiving team is permitted to have a 9th player in the setup zone at their option|
 | 2023 | -A fair catch inside the 25-yard line is a touchback to the 25 (only for this season)|
+
+# Link to Official Project
+[Click here to see the official project. (HTML)](https://htmlpreview.github.io/?https://github.com/andre-adkins/NFL-Kickoffs/blob/main/NFL_Kickoffs.html)
