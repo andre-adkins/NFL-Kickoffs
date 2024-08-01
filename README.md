@@ -39,25 +39,3 @@ There once was a time when there were dynamic kickoff/punt return guys: players 
 | 2018 | -No contact 15 yards from kickoff spot until ball touches a player or the ground<br>-No 2-player blocking by deep players and no 2-man wedge blocks <br>-Kicking team players must be no more than 1 yard behind the ball and no prekick motion<br>-Kicking team players must have 5 on either side of the ball (at least 2 between hashmarks and numbers, at least 2 outside numbers)<br>-Receiving team must have 8 players within the "setup zone" (15-yd zone between 10-25 yards from the ball)<br>-Receiving team cannot exit the setup zone on either side until the ball touches the ground or a player<br>-An untouched kick is a touchback when it touches the ground in the end zone |
 | 2021 | -Receiving team is permitted to have a 9th player in the setup zone at their option|
 | 2023 | -A fair catch inside the 25-yard line is a touchback to the 25 (only for this season)|
-
-
-```SQL
-/* Join the two tables, adjust column names, and create a new table named "kickoff_data" */
-CREATE TABLE NFLdata.kickoff_data AS
-(SELECT NFLdata.kickoff_returns.*,
-  kickoffs.Kickoffs, kickoffs.Yds AS Yds_Allowed, kickoffs.Touchbacks, kickoffs.`TB(pct)` AS `TB%`, kickoffs.Ret AS Ret_Allowed,
-  kickoffs.Ret_Avg AS Ret_Avg_Allowed, kickoffs.OSK, kickoffs.OSK_Rec, kickoffs.OOB, kickoffs.Touchdowns_Allowed
-FROM NFLdata.kickoff_returns
-JOIN NFLdata.kickoffs ON kickoff_returns.Year = kickoffs.Year AND kickoff_returns.Team= kickoffs.Team)
-```
-```SQL
-/* Group data by YEAR and compute appropriate aggregate functions */
-SELECT kickoff_data.Year, ROUND(avg(kickoff_data.Avg), 2) AS Avg_Yds_Per_Return, ROUND(avg(kickoff_data.Yds), 2) AS Avg_KRet_Yds_Per_Season, 
-  sum(kickoff_data.KRet_TD) AS Total_KRet_TD, sum(kickoff_data.`20_yd_returns`) AS Total_20_Yd_Returns, sum(kickoff_data.`40_yd_returns`) AS 
-  Total_40_Yd_Returns, sum(kickoff_data.`Fair Catch`) AS Total_Fair_Catches, sum(kickoff_data.Touchbacks) AS Total_Touchbacks, 
-  ROUND(avg(kickoff_data.Ret_Allowed), 0) AS Avg_Ret_Allowed
-FROM NFLdata.kickoff_data
-GROUP BY Year
-```
-
-
