@@ -1,6 +1,8 @@
 # Analyzing the State of the NFL's Kickoff Returns
 In this project, I analyze NFL kickoff data from the 2005-06 to 2023-24 seasons and determine if a rule change should be implemented. The data was retrieved from the [Official NFL Stats Website](https://www.nfl.com/stats/team-stats/).
 
+[Click here to see the official project. (HTML)](https://htmlpreview.github.io/?https://github.com/andre-adkins/NFL-Kickoffs/blob/main/NFL_Kickoffs.html)
+
 ## Programs Used
 + **SQL:** Used to collect, clean, join, and transform the data. <be>
 + **R Studio:** Used to transform data further and create the data visualizations of the results.
