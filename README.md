@@ -39,5 +39,4 @@ There was a time when the NFL featured dynamic kickoff and punt return specialis
 | 2021 | -Receiving team is permitted to have a 9th player in the setup zone at their option|
 | 2023 | -A fair catch inside the 25-yard line is a touchback to the 25 (only for this season)|
 
-# Link to Official Project
-[Click here to see the official project. (HTML)](https://htmlpreview.github.io/?https://github.com/andre-adkins/NFL-Kickoffs/blob/main/NFL_Kickoffs.html)
+# [Link to Official Project](https://htmlpreview.github.io/?https://github.com/andre-adkins/NFL-Kickoffs/blob/main/NFL_Kickoffs.html)
