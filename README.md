@@ -27,8 +27,7 @@ In this project, I analyze NFL kickoff data from the 2005-06 to 2023-24 seasons 
 - Data Visualization (line and bar graphs)
 
 ## Introduction
-There once was a time when there were dynamic kickoff/punt return guys: players that every time they touched the ball, there was a chance that it was going "to the house". Dante Hall, Cordarrelle Patterson, Percy Harvin, DeSean Jackson, Josh Cribbs, Darren Sproles, and who could forget the NFL Hall of Famer Devin Hester. Kickoffs were an exciting part of watching an NFL game whether it be on Sunday, Monday, or Thursday. However, the increase in injuries on kickoffs has caused the NFL to find a way to mitigate them. This has led to multiple years where the league changed the rules for this special teams play. *(This project examines data starting from the 2005-06 NFL Season, thus rule changes occurring from that season on will be highlighted.)*
-
+There was a time when the NFL featured dynamic kickoff and punt return specialists, players whose mere touch of the ball could potentially result in a touchdown. Notable figures such as Dante Hall, Cordarrelle Patterson, Percy Harvin, DeSean Jackson, Josh Cribbs, Darren Sproles, and the esteemed NFL Hall of Famer Devin Hester exemplified this electrifying aspect of the game. Kickoff returns added a thrilling dimension to NFL games, whether on Sundays, Mondays, or Thursdays. However, the rise in injuries associated with kickoffs has prompted the NFL to seek ways to address this issue. Consequently, the league has implemented rule changes over several years to enhance player safety during these special teams plays. *(This study focuses on data from the 2005-06 NFL Season onwards, emphasizing rule modifications introduced from that period.)*
 | Year | Rule Change(s)|
 |---|---|
 | 2006 | -A minimum of 4 kicking team players must be on both sides of the ball |
