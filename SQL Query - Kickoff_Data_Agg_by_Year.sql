@@ -1,4 +1,4 @@
---This code creates a new table called "kickoff_data_by_yearkickoff_data_by_year".
+--This code creates a new table called "kickoff_data_by_year".
 --This table aggregates the data and groups it by year.
 --Uses the avg & sum functions to give averages and totals for the respective fields for that year.
 --All averages are rounded to 2 decimal places.
