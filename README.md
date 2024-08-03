@@ -12,7 +12,7 @@ In this project, I analyze NFL kickoff data from the 2005-06 to 2023-24 seasons 
 + **R Studio:** Used to transform data further and create the data visualizations of the results.
   + Packages used: *tidyverse, ggplot2*.
 
-## Data Definitions
+## Data Dictionary
   + **Avg Yards per Return (`Avg`):** Average number of yards gained on a team's kickoff return.<br>
   + **Total Kick Returns (`Ret`):** Total number of kickoffs returned (does not include touchbacks or kicks out-of-bounds).<br>
   + **Total Kick Return Yards (`Yds`):** Total number of yards gained when returning kickoffs (does not include touchbacks or kicks out-of-bounds).<br>
@@ -32,7 +32,7 @@ In this project, I analyze NFL kickoff data from the 2005-06 to 2023-24 seasons 
 - Aggregate Functions
 - Data Visualization (line and bar graphs)
 
-## Introduction
+## Background
 There was a time when the NFL featured dynamic kickoff and punt return specialists, players whose mere touch of the ball could potentially result in a touchdown. Notable figures such as Dante Hall, Cordarrelle Patterson, Percy Harvin, DeSean Jackson, Josh Cribbs, Darren Sproles, and the esteemed NFL Hall of Famer Devin Hester exemplified this electrifying aspect of the game. Kickoff returns added a thrilling dimension to NFL games, whether on Sundays, Mondays, or Thursdays. However, the rise in injuries associated with kickoffs has prompted the NFL to seek ways to address this issue. Consequently, the league has implemented rule changes over several years to enhance player safety during these special teams plays. *(This study focuses on data from the 2005-06 NFL Season onwards, emphasizing rule modifications introduced from that period.)*
 | Year | Rule Change(s)|
 |---|---|
