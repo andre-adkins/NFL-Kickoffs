@@ -5,6 +5,7 @@ In this project, I analyze NFL kickoff data from the 2005-06 to 2023-24 seasons 
 [SQL Query - Joining Data](https://github.com/andre-adkins/NFL-Kickoffs/blob/main/SQL%20Query%20-%20Kickoff_Data_Join.sql)<br>
 [SQL Query - Aggregating Data by Year](https://github.com/andre-adkins/NFL-Kickoffs/blob/main/SQL%20Query%20-%20Kickoff_Data_Agg_by_Year.sql)<br>
 [R - Data Analysis, Visualizations, Insights, and Recommendations](https://htmlpreview.github.io/?https://github.com/andre-adkins/NFL-Kickoffs/blob/main/NFL_Kickoffs.html)
+[R Markdown File for Project](https://github.com/andre-adkins/NFL-Kickoffs/blob/main/Analyzing_NFL_Kickoffs.Rmd)
 
 
 ## Programs Used
